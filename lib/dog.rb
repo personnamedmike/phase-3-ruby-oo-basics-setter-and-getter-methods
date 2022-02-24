@@ -1,3 +1,4 @@
+require 'pry'
 class Dog
     def name=(name)
         @name = name
@@ -15,4 +16,14 @@ class Dog
         @breed
     end
 
+    # attr_accessor :@name, :@breed
+
+    # def initialize(name, breed)
+    #     @name = name
+    #     @breed = breed
+    # end
 end
+
+# dog1 = Dog.new('john', 'no breed')
+
+# binding.pry
